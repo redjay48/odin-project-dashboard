@@ -48,5 +48,34 @@ body {
 }
 
 .main {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
 
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-topright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-logo {
+    display: flex;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.search-bar {
+    width: 600px;
+    height: 20px;
+    background-color: #d7d9db;
+    border-radius: 25px;
+    border: none;
 }
