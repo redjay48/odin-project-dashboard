@@ -100,3 +100,14 @@ body {
     gap: 22px;
     margin-right: 150px;
 }
+
+button {
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(66, 133, 209);
+    border-radius: 25px;
+    border: 0;
+}
