@@ -80,9 +80,15 @@ body {
     align-items: center;
 }
 
+.header-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
 .search-bar {
     width: 600px;
-    height: 20px;
+    height: 30px;
     background-color: #d7d9db;
     border-radius: 25px;
     border: none;
@@ -93,6 +99,12 @@ body {
     align-items: center;
     margin-left: 150px;
     gap: 22px;
+    
+}
+
+.header-bottomright>div>p {
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 
 .header-bottomleft {
@@ -115,8 +127,9 @@ button {
 .main-bottom {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(228, 234, 240);
     padding-right: 20px;
+    box-shadow: inset 0em 0.2em 6px rgb(173, 172, 172);
 }
 
 .card-container {
